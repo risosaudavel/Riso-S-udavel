@@ -39,9 +39,38 @@ a.atual {
     border-radius: 20px;
 }
 
+
 /*main*/
 
+h2{
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bold;
+    color: #4a7c59;
+    margin: 4vw 0;
+}
 
+p strong{
+    color: #4a7c59;
+    font-weight: bold;
+    text-align: center;
+}
+
+ul.atas{
+    margin: 4vw;
+}
+
+h3{
+    font-size: 2rem;
+    color: #4a7c59;
+    font-weight: bold;
+    margin: 2.5vw 0 1.5vw 0;
+}
+
+p{
+    font-size: 1.4rem;
+    padding: 0 0 1vw 0;
+}
 
 
 

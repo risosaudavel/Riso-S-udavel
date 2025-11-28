@@ -79,7 +79,6 @@ a {
     color: #5a4634;
     line-height: 2.5rem;
     text-align: justify;
-    font-weight: bold;
 }
 
 .hidratacao {
@@ -107,7 +106,6 @@ a {
     color: #5a4634;
     line-height: 2.5rem;
     text-align: justify;
-    font-weight: bold;
     padding: 3vw 7vw;
 }
 
@@ -130,7 +128,6 @@ a {
     color: #5a4634;
     line-height: 2.5rem;
     text-align: justify;
-    font-weight: bold;
     padding: 0 7vw 3vw 7vw;
 }
 
@@ -143,7 +140,7 @@ a {
 }
 
 .adolescencia img {
-    width: 300vw;
+    width: 100vw;
     height: auto;
     border-radius: 1vw;
 }
@@ -153,7 +150,6 @@ a {
     color: #5a4634;
     line-height: 2.5rem;
     text-align: justify;
-    font-weight: bold;
     padding: 0 3vw;
 }
 
