@@ -41,10 +41,93 @@ a.atual {
 
 /*main*/
 
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+    padding: 20px;
+    color: #5A4634;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    color: #4A7C59;
+    margin-bottom: 10px;
+    font-size: 4rem;
+    font-weight: bold;
+  text-align: center;
+  margin: 4vw;
+
+}
+
+.question {
+    display: none;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    width: 40vw;
+    height: auto;
+  text-align: center;
+}
+
+p{
+    padding: 2vw;
+}
+
+form{
+   text-align: center;
+}
 
 
 
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
 
+button {
+    background: #CC6E3A;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #d19270;
+}
+
+#resultado {
+    display: none;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.titulo-resultado {
+    font-size: 26px;
+    color: #4A7C59;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.subtitulo {
+    font-weight: bold;
+    color: #236530;
+    font-weight: bold;
+}
 
 /*footer*/
 
