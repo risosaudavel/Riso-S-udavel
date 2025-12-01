@@ -3,6 +3,9 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f7f5f0;
+     color: #5A4634;
+    font-weight: bold;
+    text-align: center;
 }
 
 header {
@@ -41,59 +44,64 @@ a.atual {
 
 /*main*/
 
-body {
-    font-family: Arial, sans-serif;
-    background: #f0f2f5;
-    padding: 20px;
-    color: #5A4634;
-    font-weight: bold;
-    text-align: center;
-}
-
 h2 {
     color: #4A7C59;
-    margin-bottom: 10px;
     font-size: 4rem;
     font-weight: bold;
-  text-align: center;
-  margin: 4vw;
+    text-align: center;
+    margin-top: 4vw;
 
+}
+
+.banner p{
+    padding: 2vw;
+    font-size: 2.3rem;
 }
 
 .question {
-    display: none;
     background: #fff;
-    padding: 20px;
+    padding-bottom: 40px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    font-size: 1.8rem;
-    font-weight: bold;
-    width: 40vw;
+    margin: 20px;
+    width: 60vw;
     height: auto;
-  text-align: center;
+    
 }
 
-p{
+.question p{
     padding: 2vw;
+    font-size: 3rem;
 }
 
 form{
-   text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
-
+.question label{
+    margin: 0 2vw;
+    display: flex;
+    text-align: left;
+    font-size: 2.5rem;
+}
+.question input{
+    margin-right: 10px;
+    width: 20px;
+    border: #236530;
+}
 
 .buttons {
     display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
+    justify-content: center;
+    gap: 7vw;
+    margin: 2vw;
 }
 
 button {
     background: #CC6E3A;
     color: white;
-    padding: 12px 20px;
+    padding: 22px 40px;
     border: none;
     border-radius: 6px;
     cursor: pointer;
@@ -107,17 +115,18 @@ button:hover {
 
 #resultado {
     display: none;
+    justify-content: center;
     background: #ffffff;
     padding: 25px;
     border-radius: 12px;
-    margin-top: 25px;
+    margin: 2vw 10vw;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.6rem;
 }
 
 .titulo-resultado {
-    font-size: 26px;
+    font-size: 1.5rem;
     color: #4A7C59;
     margin-bottom: 15px;
     font-weight: bold;
